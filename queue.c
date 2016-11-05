@@ -39,5 +39,6 @@ void main(){
 	delete();
 	display();
 	delete();
+	insert(78);
 	display();
 }
