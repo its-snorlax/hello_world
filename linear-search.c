@@ -1,7 +1,5 @@
 #include <stdio.h>
-#include <conio.h>
-int main()
-{
+void main(){
    int array[100], search, c, totalinput;
  
    printf("Enter the number of elements in array\n");
@@ -15,16 +13,11 @@ int main()
    printf("Enter the number to search\n");
    scanf("%d", &search);
  
-   for (c = 0; c < totalinput; c++)
-   {
-      if (array[c] == search)   
-      {
+   for (c = 0; c < totalinput; c++){
+      if (array[c] == search){
          printf("%d is present at location %d.\n", search, c+1);
          break;
       }
    }
-   if (c == totalinput)
-      printf("%d is not present in array.\n", search);
  
-   getch();
 }
