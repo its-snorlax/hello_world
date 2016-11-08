@@ -9,7 +9,7 @@ void insert(int data){
 	if (rear == maxsize - 1){
 		printf("overflow / queue is full\n");
 	}
-	rear++;
+	rear++	;
 	totalNumber[rear] = data;
 	if (rear == 0){
 		front = 0;
