@@ -51,3 +51,4 @@ int isEqual(const char* str1, const char* str2) {
 	printf("popped element = %d \n",pop());
 	display();
 }
+ 
